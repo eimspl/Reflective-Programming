@@ -3,7 +3,7 @@ package com.kodilla.bytecode.reflection.student;
 import java.security.SecureRandom;
 
 public class Student {
-    String indexNumber = generateRandomStringWithTenCharacters();
+    private String indexNumber = generateRandomStringWithTenCharacters();
 
     public String getIndexNumber() {
         return indexNumber;
